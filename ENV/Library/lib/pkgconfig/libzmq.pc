@@ -1,0 +1,12 @@
+prefix=D:/Hardik Kumawat Personal/Conda/CarPrice/ENV/Library
+exec_prefix=D:/Hardik Kumawat Personal/Conda/CarPrice/ENV/Library
+libdir=D:/Hardik Kumawat Personal/Conda/CarPrice/ENV/Library/lib
+includedir=D:/Hardik Kumawat Personal/Conda/CarPrice/ENV/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 
